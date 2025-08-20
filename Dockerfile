@@ -19,4 +19,4 @@ RUN npm run build
 EXPOSE 3001
 
 # Run the application
-CMD [ "node", "dist/start-manager.js" ]
+CMD [ "sh", "-c", "node scripts/generate-config.js && node dist/start-manager.js" ]

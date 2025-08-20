@@ -35,7 +35,8 @@
         "pm2:delete": "pm2 delete process.json",
         "test": "vitest run",
         "test:watch": "vitest",
-        "test:coverage": "vitest run --coverage"
+        "test:coverage": "vitest run --coverage",
+        "generate-config": "node scripts/generate-config.js"
     },
     "dependencies": {
         "@discordjs/rest": "^2.5.1",
