@@ -5,6 +5,7 @@ import {
     Role,
 } from 'discord.js';
 import { RateLimiter } from 'discord.js-rate-limiter';
+import fetch from 'node-fetch';
 
 import { Language } from '../../models/enum-helpers/index.js';
 import { EventData } from '../../models/internal-models.js';
