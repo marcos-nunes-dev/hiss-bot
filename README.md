@@ -78,7 +78,7 @@ A welcome message is sent to the server and owner when the bot is added.
 
 ![](https://i.imgur.com/QBw8H8v.png)
 
-## Setup
+## Setupj
 
 1. Copy example config files.
     - Navigate to the `config` folder of this project.
